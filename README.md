@@ -46,6 +46,11 @@ Tested with configuration below, and may or may not work in earlier releases:
 * CakePHP 2.3+
 
 
+API Documentation
+-----------------
+http://balthisar.github.io/JDMultipage
+
+
 Installation
 ------------
 
