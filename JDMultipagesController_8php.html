@@ -58,22 +58,23 @@ $(document).ready(function(){initNavTree('JDMultipagesController_8php.html','');
 </div><!--header-->
 <div class="contents">
 
-<p>Part of plugin <code><a class="el" href="classJDMultipage.html">JDMultipage</a></code>  
+<p>Part of plugin <code><a class="el" href="classJDMultipage.html" title="JDMultipage class is the principal model class for this plugin. ">JDMultipage</a></code>  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJDMultipagesController.html">JDMultipagesController</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classJDMultipagesController.html" title="JDMultipagesController class is the principal controller class for this plugin. ">JDMultipagesController</a> class is the principal controller class for this plugin.  <a href="classJDMultipagesController.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Part of plugin <code><a class="el" href="classJDMultipage.html">JDMultipage</a></code> </p>
+<div class="textblock"><p>Part of plugin <code><a class="el" href="classJDMultipage.html" title="JDMultipage class is the principal model class for this plugin. ">JDMultipage</a></code> </p>
 <p>This plugin makes it relatively simple to display organized, related static views from <code>app/Plugin/JDMultipage/View/Multipages/{bookname}/(*).ctp</code></p>
 <h3>Load the plugin in your Config/bootstrap.php file:</h3>
-<pre class="fragment">CakePlugin::load(array('JDMultipage' =&gt; array('routes' =&gt; true)));
-</pre><h3>Concepts / Description</h3>
+<p>CakePlugin::load(array('<a class="el" href="classJDMultipage.html" title="JDMultipage class is the principal model class for this plugin. ">JDMultipage</a>' =&gt; array('routes' =&gt; true)));</p>
+<h3>Concepts / Description</h3>
 <p>Related documents are grouped into a 'book' and books contain one or more pages described by an 'alias' that links them to files on the server filesystem. The book is structured in page number order, and support for a generated table of contents and navigation widget is supported. Support for <code>sitemap.xml</code> generation is also integrated.</p>
-<p>This organization is implemented by hard-coding each book it into the public array <code>$books</code> in the <code><a class="el" href="classJDMultipage.html">JDMultipage</a></code> model.</p>
+<p>This organization is implemented by hard-coding each book it into the public array <code>$books</code> in the <code><a class="el" href="classJDMultipage.html" title="JDMultipage class is the principal model class for this plugin. ">JDMultipage</a></code> model.</p>
 <p>Each root level book contains some general configuration options specific to each book as well as a root-level <code>list</code> element that contains one or more aliases to pages. Additionally each page may contain a nested list to additional pages. In this way pages or groups of pages can be nested to arbitrary depths. This nesting then becomes apparent when generating tables of contents. Finally to support robust tables of contents, dummy pages without alias/file attributed to them will show up in tables of contents for purposes such as labels or group headers. Each alias must be unique.</p>
 <h3>Routes Setup</h3>
 <p>This plugin is unable to reliably determine route configurations. Therefore one of the base configurations for each book is <code>basePath</code> which should be coordinated with your routes in the plugin <code><a class="el" href="routes_8php.html" title="Part of plugin JDMultipage ">routes.php</a></code> file. This <code>basePath</code> should reflect the URL that each of the pages should be available at.</p>
@@ -89,7 +90,7 @@ MIT License (<a href="http://www.opensource.org/licenses/mit-license.php">http:/
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b500f500d6f9b315c95ab1cd4a3b5c0d.html">Controller</a></li><li class="navelem"><a class="el" href="JDMultipagesController_8php.html">JDMultipagesController.php</a></li>
-    <li class="footer">Generated on Sun Feb 16 2014 09:20:30 for JDMultipage by
+    <li class="footer">Generated on Thu Feb 27 2014 15:10:01 for JDMultipage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

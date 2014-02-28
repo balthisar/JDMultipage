@@ -55,6 +55,9 @@ $(document).ready(function(){initNavTree('classJDMultipageHelper.html','');});
 <div class="title">JDMultipageHelper Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Implements a view helper to show navigation controls, tables of contents, or sitemap.xml bodies.  
+ <a href="classJDMultipageHelper.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for JDMultipageHelper:</div>
 <div class="dyncontent">
@@ -81,7 +84,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8a5c1657646c7e06c298b97c72faf3fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a sitemap.xml body for the specified $book.  <a href="#a8a5c1657646c7e06c298b97c72faf3fe">More...</a><br/></td></tr>
 <tr class="separator:a8a5c1657646c7e06c298b97c72faf3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0db68f14211d0fb93f9a94faca5017e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJDMultipageHelper.html#ab0db68f14211d0fb93f9a94faca5017e">getTOC</a> ($book, $classes= '')</td></tr>
-<tr class="memdesc:ab0db68f14211d0fb93f9a94faca5017e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a table of contents for the specified <code>$book</code> as a nested set of one or more &lt;ul&gt;'s.  <a href="#ab0db68f14211d0fb93f9a94faca5017e">More...</a><br/></td></tr>
+<tr class="memdesc:ab0db68f14211d0fb93f9a94faca5017e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a table of contents for the specified <code>$book</code> as a nested set of one or more <code>\&lt;ul&gt;</code>'s.  <a href="#ab0db68f14211d0fb93f9a94faca5017e">More...</a><br/></td></tr>
 <tr class="separator:ab0db68f14211d0fb93f9a94faca5017e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -102,19 +105,14 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns HTML for a navigation widget. </p>
-<p>Returns the <code>$navData</code> in a series of <code>&lt;divs&gt;</code> (suitable for CSS styling) that contains links for First, Previous, TOC, Next, and Last pages.</p>
+<p>Returns the <code>$navData</code> in a series of <code>\&lt;divs&gt;</code> (suitable for CSS styling) that contains links for First, Previous, TOC, Next, and Last pages.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">$navData</td><td>The view's <code>$JDMPNavigatorData</code>. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$navData</td><td>The view's <code>$JDMPNavigatorData</code>. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">string</td><td>HTML string for the navigator. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>string HTML string for the navigator. </dd></dl>
 
 </div>
 </div>
@@ -133,19 +131,14 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns HTML for a navigation widget. </p>
-<p>Returns the <code>$navData</code> in a series of <code>&lt;divs&gt;</code> (suitable for CSS styling) that contains links for First, Previous, TOC, Next, and Last pages, and a five page mini index.</p>
+<p>Returns the <code>$navData</code> in a series of <code>\&lt;divs&gt;</code> (suitable for CSS styling) that contains links for First, Previous, TOC, Next, and Last pages, and a five page mini index.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">$navData</td><td>The view's <code>$JDMPNavigatorData</code>. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$navData</td><td>The view's <code>$JDMPNavigatorData</code>. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">string</td><td>HTML string for the navigator. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>string HTML string for the navigator. </dd></dl>
 
 </div>
 </div>
@@ -164,19 +157,14 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns HTML for a navigation widget. </p>
-<p>Returns the <code>$navData</code> in a series of <code>&lt;divs&gt;</code> (suitable for CSS styling) that contains links for Previous, TOC, and Next pages.</p>
+<p>Returns the <code>$navData</code> in a series of <code>\&lt;divs&gt;</code> (suitable for CSS styling) that contains links for Previous, TOC, and Next pages.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">$navData</td><td>The view's <code>$JDMPNavigatorData</code>. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$navData</td><td>The view's <code>$JDMPNavigatorData</code>. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">string</td><td>HTML string for the navigator. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>string HTML string for the navigator. </dd></dl>
 
 </div>
 </div>
@@ -197,16 +185,11 @@ Public Member Functions</h2></td></tr>
 <p>Returns a sitemap.xml body for the specified $book. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">$book</td><td>The book for which the sitemap is wanted. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$book</td><td>The book for which the sitemap is wanted. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">String</td><td>String consisting of the TOC HTML. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>string String consisting of the TOC HTML. </dd></dl>
 
 </div>
 </div>
@@ -234,32 +217,27 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a table of contents for the specified <code>$book</code> as a nested set of one or more &lt;ul&gt;'s. </p>
-<p>If you specifiy <code>$classes</code> it can consist of string, which will be set as the class of the outer <code>&lt;ul&gt;</code> only, or as an array with the following keys:</p>
+<p>Returns a table of contents for the specified <code>$book</code> as a nested set of one or more <code>\&lt;ul&gt;</code>'s. </p>
+<p>If you specifiy <code>$classes</code> it can consist of string, which will be set as the class of the outer <code>\&lt;ul&gt;</code> only, or as an array with the keys:</p>
 <table class="doxtable">
 <tr>
 <th>Key </th><th>Description  </th></tr>
 <tr>
-<td>ulOuter </td><td>class to apply to outer <code>&lt;ul&gt;</code> </td></tr>
+<td>ulOuter </td><td>class to apply to outer <code>\&lt;ul&gt;</code> </td></tr>
 <tr>
-<td>liNoAnchor </td><td>class applied to <code>&lt;li&gt;</code> without an <code>&lt;a&gt;</code> </td></tr>
+<td>liNoAnchor </td><td>class applied to <code>\&lt;li&gt;</code> without an <code>\&lt;a&gt;</code> </td></tr>
 <tr>
-<td>liAnchor </td><td>class applied to <code>&lt;li&gt;</code> that has an <code>&lt;a&gt;</code> </td></tr>
+<td>liAnchor </td><td>class applied to <code>\&lt;li&gt;</code> that has an <code>\&lt;a&gt;</code> </td></tr>
 </table>
-<p>Everything else can be targetted very easily with careful CSS selectors.</p>
+<p>Everything else can be targeted very easily with careful CSS selectors.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">$book</td><td>The book for which the TOC is wanted. </td></tr>
-    <tr><td class="paramname">$classes</td><td>String or Array as indicated above. </td></tr>
+    <tr><td class="paramtype">mixed</td><td class="paramname">$book</td><td>The book for which the TOC is wanted. </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$classes</td><td>String or Array as indicated above. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">String</td><td>String consisting of the TOC HTML. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>String String consisting of the TOC HTML. </dd></dl>
 
 </div>
 </div>
@@ -272,7 +250,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classJDMultipageHelper.html">JDMultipageHelper</a></li>
-    <li class="footer">Generated on Sun Feb 16 2014 09:20:30 for JDMultipage by
+    <li class="footer">Generated on Thu Feb 27 2014 15:10:01 for JDMultipage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
